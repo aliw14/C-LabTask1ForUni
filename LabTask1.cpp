@@ -1,27 +1,27 @@
 #include <iostream>
-using namespace std
+using namespace std;
 
 int main() {
-    double tjsToAznExchangeRate = 0.062;  
-    double uahToAznExchangeRate = 0.23;   
-    double tryToAznExchangeRate = 0.13;   
-
-    double tjsAmount, uahAmount, tryAmount;
+    double tjsToAznExchangeRate= 0.062,uahToAznExchangeRate = 0.23,tryToAznExchangeRate = 0.13;
+    
+    double amount;
 
     cout << "Enter the amount in TJS: ";
-    cin >> tjsAmount;
+    cin >> amount;
 
-    cout << tjsAmount << " TJS is equivalent to " << tjsAmount * tjsToAznExchangeRate << " AZN." << endl;
+    cout << amount << " TJS is equivalent to " << amount * tjsToAznExchangeRate << " AZN." << endl;
 
     cout << "Enter the amount in UAH: ";
-    cin >> uahAmount;
+    cin >> amount;
 
-    cout << uahAmount << " UAH is equivalent to " << uahAmount * uahToAznExchangeRate << " AZN." << endl;
+    cout << amount << " UAH is equivalent to " << amount * uahToAznExchangeRate << " AZN." << endl;
 
     cout << "Enter the amount in TRY: ";
-    cin >> tryAmount;
+    cin >> amount;
 
-    cout << tryAmount << " TRY is equivalent to " << tryAmount * tryToAznExchangeRate << " AZN." << endl;
+    cout << amount << " TRY is equivalent to " << amount * tryToAznExchangeRate << " AZN." << endl;
 
     return 0;
 }
+
+
