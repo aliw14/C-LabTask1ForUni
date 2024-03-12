@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std
 
 int main() {
     double tjsToAznExchangeRate = 0.062;  
@@ -7,20 +8,20 @@ int main() {
 
     double tjsAmount, uahAmount, tryAmount;
 
-    std::cout << "Enter the amount in TJS: ";
-    std::cin >> tjsAmount;
+    cout << "Enter the amount in TJS: ";
+    cin >> tjsAmount;
 
-    std::cout << tjsAmount << " TJS is equivalent to " << tjsAmount * tjsToAznExchangeRate << " AZN." << std::endl;
+    cout << tjsAmount << " TJS is equivalent to " << tjsAmount * tjsToAznExchangeRate << " AZN." << endl;
 
-    std::cout << "Enter the amount in UAH: ";
-    std::cin >> uahAmount;
+    cout << "Enter the amount in UAH: ";
+    cin >> uahAmount;
 
-    std::cout << uahAmount << " UAH is equivalent to " << uahAmount * uahToAznExchangeRate << " AZN." << std::endl;
+    cout << uahAmount << " UAH is equivalent to " << uahAmount * uahToAznExchangeRate << " AZN." << endl;
 
-    std::cout << "Enter the amount in TRY: ";
-    std::cin >> tryAmount;
+    cout << "Enter the amount in TRY: ";
+    cin >> tryAmount;
 
-    std::cout << tryAmount << " TRY is equivalent to " << tryAmount * tryToAznExchangeRate << " AZN." << std::endl;
+    cout << tryAmount << " TRY is equivalent to " << tryAmount * tryToAznExchangeRate << " AZN." << endl;
 
     return 0;
 }
